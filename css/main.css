@@ -11972,6 +11972,57 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
 a a:hover {
   text-decoration: none;
+}
+
+header {
+  background: #fff;
+  padding: 10px 0;
+  -webkit-box-shadow: 0 5px 10px rgba(204, 204, 204, 0.31);
+          box-shadow: 0 5px 10px rgba(204, 204, 204, 0.31);
+}
+header h1, header .h1 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+header .avatar-container {
+  width: 68px;
+  height: 60px;
+  position: relative;
+  cursor: pointer;
+}
+header .avatar-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 50%;
+}
+header .avatar-container i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  color: #ff7f00;
+}
+header .profile-options-modal .profile-options-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+header .profile-options-modal .profile-options-list li a {
+  display: block;
+  padding: 10px 0;
+  color: #495057;
+}
+header .profile-options-modal .profile-options-list li a i {
+  display: inline-block;
+  width: 18px;
 }
