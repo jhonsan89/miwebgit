@@ -11964,7 +11964,17 @@ body {
   color: #495057;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+h1, .h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
   margin: 0;
 }
 
@@ -11972,10 +11982,12 @@ img {
   max-width: 100%;
 }
 
-a, .btn-link {
+a,
+.btn-link {
   text-decoration: none;
 }
-a a:hover, .btn-link a:hover {
+a a:hover,
+.btn-link a:hover {
   text-decoration: none;
 }
 
@@ -12023,7 +12035,7 @@ header h1, header .h1 {
 }
 header .avatar-container {
   width: 68px;
-  height: 60px;
+  height: 68px;
   position: relative;
   cursor: pointer;
 }
@@ -12070,14 +12082,24 @@ header .avatar-container i {
 .searchConntainer {
   padding-top: 30px;
 }
-.searchConntainer input {
+.searchConntainer form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.searchConntainer form input {
   display: block;
-  width: 100%;
+  width: 70%;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   font-size: 14px;
   padding: 8px 10px;
   border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+.searchConntainer form button {
+  width: 20%;
 }
 
 .productListContainer {
